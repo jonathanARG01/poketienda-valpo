@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .1;
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: red;
+}
+
+h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+}
+
+a {
+    text-align: center;
+    font-size: 30px;
+    color: #00ab00;
+    margin-bottom: 60px;
+}
+
+.box-poke {
+    width: 100%;
+    height: 360px;
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 10px;
+    transition-duration: .3s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-poke img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition-duration: .3s;
+}
+.box-poke img:hover {
+    transform: scale(1.05);
+}
